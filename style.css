@@ -7,6 +7,83 @@
     font-style: normal;*/
 }
 
-nav{
-	
+.logo{
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
+
+
+nav {
+    
+    padding: 10px 0;
+    
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333; 
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 160px;
+  }
+  
+ .logo img {
+    margin-right: 10px;
+  }  
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 80px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .login-btn {
+    
+   margin-right: 160px;
+   padding: .5rem .75rem;  
+   border-radius: 5px ;  
+   text-decoration: none; 
+   color: #006A50;
+   border: 2px solid #006A50;
+  }
+
+  .container span {
+    margin-left: 160px; 
+  }
+
+  .card {
+    background-color: #c5e3d5; 
+    padding: 20px; /* padding for inner spacing */
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+    max-width: 1280px; 
+    max-height: 560px;
+  }
+
+  .hero-image{
+    width: 5px;
+  }
