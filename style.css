@@ -112,13 +112,129 @@ nav {
     background-color: #c5e3d5;
     border-radius: 24px;
     padding: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     text-align: center;
+    
   }
 
 
     
-}
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .subscribe-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px 0 0 8px;
+    flex: 0.3;
+    font-size: 16px;
+  }
+  
+  .subscribe-form button {
+    background-color: #046b47;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #034d34;
+  }
+  
+  .small-text {
+    font-size: 14px;
+    color: #464f4b;
+  }
+
+  .heading {
+    font-size: 30px;
+    color: #000;
+    font-weight: 800;
+  }
+
+  .grid{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: space-between;
+
+  }
+
+  .small-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+
+  }
 
 
+  .big-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background: white;
+
+  }
+
+
+  #text{
+    font-size: 16px;
+    color: #484343;
+  }
+
+
+
+
+
+
+
+  .testimonial-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: relative;
+  padding-left: 40px; /* Adds space to fit the large quote */
+  }
+  
+  .quote-icon {
+    font-size: 200px;
+    color: #d3d3d3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1;
+    z-index: 0;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    color: #555;
+    position: relative;
+    line-height: 1.5;
+    z-index: 1;
+    margin-top: 25px; /* Adjust margin to overlap text with quote */
+  }
+  
+  
+  .author {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: .2;
+  }
+  
+  .designation {
+    font-size: 14px;
+    color: #777;
+    line-height: .2;
+  }
+  
