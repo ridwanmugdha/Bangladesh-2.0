@@ -111,15 +111,16 @@ nav {
    .newsletter{
     background-color: #c5e3d5;
     border-radius: 24px;
-    padding: 40px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: center;
     
   }
 
 
-    
+   
   .subscribe-form {
     display: flex;
     justify-content: center;
@@ -130,7 +131,7 @@ nav {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px 0 0 8px;
-    flex: 0.3;
+    flex: 0.5;
     font-size: 16px;
   }
   
@@ -146,7 +147,7 @@ nav {
   
   .subscribe-form button:hover {
     background-color: #034d34;
-  }
+  }  
   
   .small-text {
     font-size: 14px;
@@ -154,7 +155,7 @@ nav {
   }
 
   .heading {
-    font-size: 30px;
+    font-size: 40px;
     color: #000;
     font-weight: 800;
     margin-bottom: 32px;
@@ -173,7 +174,7 @@ nav {
   .small-card {
     border: 1px solid #ccc;
     border-radius: 16px;
-    padding: 20px;
+    padding: 24px;
     background: white;
 
   }
@@ -188,7 +189,7 @@ nav {
   .big-card1 {
     border: 1px solid #ccc;
     border-radius: 16px;
-    padding: 20px;
+    padding: 32px;
     background: #d5e1f5;
 
   }
@@ -196,7 +197,7 @@ nav {
   .big-card2 {
     border: 1px solid #ccc;
     border-radius: 16px;
-    padding: 20px;
+    padding: 32px;
     background: #c5e3d5;
 
   }
@@ -204,7 +205,7 @@ nav {
   .big-card3 {
     border: 1px solid #ccc;
     border-radius: 16px;
-    padding: 20px;
+    padding: 32px;
     background: #f7ebd0;
 
   }
@@ -224,6 +225,9 @@ nav {
   #text-donate{
     font-size: 16px;
     color: #484343;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 0px;
    
   }
 
@@ -282,12 +286,11 @@ nav {
 
 
   .OpinionHead {
-    max-width: 100%;
+   
     padding: 20px;
     border: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
     background-color: #c5e3d5;
     
@@ -308,6 +311,22 @@ nav {
     padding: 24px;
     margin-right: auto;
 
+  }
+
+
+  .Opinion-table {
+   
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+    
+  }
+
+  .Opinion-option{
+    background: #c5e3d5 ;
   }
 
 
@@ -355,12 +374,15 @@ nav {
   }
 
   .donate-btn {
-    padding: 1rem 3rem;
-    margin: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 32px;
     font-size: 1rem;
-    border: none;
+    border: 2px solid #006e2c;
     background: #006A50;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
    }
 
@@ -371,10 +393,12 @@ nav {
 
    .donate-grid{
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     column-gap: 24px;
-    justify-content: space-evenly;
+    justify-content: center;
+    
+    
    }
 
    .donate-small-card{
@@ -399,7 +423,7 @@ nav {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 1px;
-    flex: .8;
+    flex: .6;
     font-size: 16px;
     text-align: center;
   }
@@ -476,10 +500,63 @@ nav {
     
    }
 
-   #icon-bulb{
+   #icon-bulb {
     width: 64px;
     height: 64px;
-    object-fit: cover;
+    
    }
 
+   
+   .heading-newsletter {
+    font-size: 40px;
+    color: #000;
+    font-weight: 800;
+  }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    text-align: left;
+  }
+  
+  .header {
+    background-color: #e0e0e0; /* Lighter shade for header background */
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
