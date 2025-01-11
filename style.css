@@ -33,7 +33,7 @@ nav {
   
   span{
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 32px;
     
   }
 
@@ -42,11 +42,12 @@ nav {
     
    
    margin-left: auto;
-   padding: .5rem .75rem;  
+   padding: 15px 30px;  
    border-radius: 5px ;  
    text-decoration: none; 
    color: #006A50;
    border: 2px solid #006A50;
+   font-size: 18px;
   }
 
   .login-btn:hover{
@@ -73,13 +74,13 @@ nav {
 
 
   .column-left h5{
-        font-size: 1rem;
+        font-size: 24px;
         opacity: .5;
   }
 
   .column-left p{
         margin-bottom: 1.75rem;
-        font-size: 3rem;
+        font-size: 56px;
         font-weight: bolder;
   }
 
@@ -194,12 +195,19 @@ nav {
 
   }
 
+  .big-card1:hover {
+    cursor: pointer;
+  }
+
   .big-card2 {
     border: 1px solid #ccc;
     border-radius: 16px;
     padding: 32px;
     background: #c5e3d5;
 
+  }
+  .big-card2:hover {
+    cursor: pointer;
   }
 
   .big-card3 {
@@ -208,6 +216,9 @@ nav {
     padding: 32px;
     background: #f7ebd0;
 
+  }
+  .big-card3:hover {
+    cursor: pointer;
   }
 
   #text{
@@ -318,15 +329,17 @@ nav {
    
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 15px;
-    padding: 20px;
+    border-radius: 16px;
+    margin-top: 24px;
+    padding: 32px;
     background-color: #ffffff;
+    font-weight: 600;
     
   }
 
   .Opinion-option{
     background: #c5e3d5 ;
+    font-weight: 600;
   }
 
 
