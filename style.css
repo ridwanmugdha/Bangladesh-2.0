@@ -25,7 +25,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
   
 
@@ -65,8 +66,7 @@ nav {
     background-color: #c5e3d5;
     border-radius: 24px;
     padding: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    
   }
 
 
@@ -157,12 +157,14 @@ nav {
     font-size: 30px;
     color: #000;
     font-weight: 800;
+    margin-bottom: 32px;
+    margin-top: 80px;
   }
 
   .grid{
     display: flex;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     column-gap: 24px;
     
 
@@ -176,25 +178,62 @@ nav {
 
   }
 
-
-  .big-card {
-    border: 1px solid #ccc;
-    border-radius: 16px;
-    padding: 20px;
-    background: white;
+  .small-card:hover {
+    background: #e5eae8;
+    cursor: pointer;
 
   }
 
+
+  .big-card1 {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 20px;
+    background: #d5e1f5;
+
+  }
+
+  .big-card2 {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 20px;
+    background: #c5e3d5;
+
+  }
+
+  .big-card3 {
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 20px;
+    background: #f7ebd0;
+
+  }
 
   #text{
     font-size: 16px;
     color: #484343;
   }
 
+  #text-newsletter{
+    font-size: 16px;
+    color: #484343;
+    margin-left: 329px;
+    margin-right: 329px;
+  }
 
+  #text-donate{
+    font-size: 16px;
+    color: #484343;
+   
+  }
 
+  #text-amount{
 
+    font-size: 32px;
+    color: #000;
+    font-weight: 900;
 
+  }
 
 
   .testimonial-card {
@@ -204,7 +243,7 @@ nav {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     position: relative;
-  padding-left: 40px; /* Adds space to fit the large quote */
+    padding-left: 40px;
   }
   
   .quote-icon {
@@ -279,6 +318,18 @@ nav {
     background-color: white;
     border-radius: 24px;
     padding: 48px;
+    margin-bottom: 24px;
+    
+
+  }
+
+  .recent-news-container-reverse{
+    display: flex;
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+    flex-direction: row-reverse;
 
   }
 
@@ -286,3 +337,86 @@ nav {
     border-radius: 24px ;  
   }
 
+  #text-news{
+    font-size: 16px;
+    color: #484343;
+    margin-bottom: 20px;
+  }
+
+
+
+
+  .donate-today{
+   
+    border-radius: 24px;
+    padding: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    text-align: center;
+    
+  }
+
+  .donate-btn {
+    padding: 1rem 3rem;
+    margin: 20px;
+    font-size: 1rem;
+    border: none;
+    background: #006A50;
+    border-radius: 5px;
+    color: white;
+   }
+
+   .donate-btn:hover{
+    background: #34805c;
+    cursor: pointer;
+   }
+
+   .donate-grid{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    column-gap: 24px;
+    justify-content: space-evenly;
+   }
+
+   .donate-small-card{
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 45px;
+    padding-right: 45px;
+
+   }
+
+
+   .donate-small-card:hover{
+    background: #bddacc;
+    cursor: pointer;
+   }
+
+
+   .subscribe-form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    flex: .8;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #vertical-line{
+    width: 1122px;
+    height: 2px;
+    background-color: silver;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  #favicon{
+    display: flex;
+    column-gap: 23px;
+    justify-content: center;
+  }
