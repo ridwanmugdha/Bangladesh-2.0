@@ -350,8 +350,6 @@ nav {
    
     border-radius: 24px;
     padding: 40px;
-    margin-top: 80px;
-    text-align: center;
     text-align: center;
     
   }
@@ -464,6 +462,24 @@ nav {
    .big-card3-btn:hover{
     background: #f4dfaf;
     cursor: pointer;
+   }
+
+
+   #greyimg{
+    filter: grayscale(100%);
+   }
+
+
+   #greyimg:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+    
+   }
+
+   #icon-bulb{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
    }
 
 
